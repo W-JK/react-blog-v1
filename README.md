@@ -1,5 +1,5 @@
 # react-blog
-Blog Website - React,  Mongo, Postman testing, multer (img handling)
+Blog Website - React,  MongoDB (with AWS server), Postman testing, multer (img handling)
 
 npm i react-router-dom 
 
@@ -23,6 +23,10 @@ npm i react-router-dom
     mongoose - to connect mongo 
     dotenv - to hide private links&passes
     multer - to handle img files
+
+    Atlas MongoDB used:
+    MongoDB connection with MongoDB Driver
+    - npm install mongodb have to be instaled fo 
 
 ## Credits
 author (Safak) repository:
