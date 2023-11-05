@@ -28,6 +28,8 @@ npm i react-router-dom
     MongoDB connection with MongoDB Driver
     - npm install mongodb have to be instaled fo 
 
+    initialising express server: run npm init in API folder and change package.json 
+
 ## Credits
 author (Safak) repository:
  https://github.com/safak/youtube/blob/react-blog-ui/src/components/topbar/Topbar.jsx
