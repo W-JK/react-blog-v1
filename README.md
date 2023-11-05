@@ -25,13 +25,18 @@ npm i react-router-dom
     multer - to handle img files
 
     Atlas MongoDB used:
-    MongoDB connection with MongoDB Driver
-    - npm install mongodb have to be instaled fo 
+    MongoDB connection require MongoDB Driver
+    - npm install mongodb 
+    
 
-    initialising express server: run npm init in API folder and change package.json 
+    to initialise express server: run npm init in API folder and change package.json
+    live update with nodemon
+    - install nodemon (recomended: npm install -g nodemon) 
 
 ## Credits
-author (Safak) repository:
+Build and updated by WJK - based on Lama Dev (by Safak) YouTube training video
+
+ original repository/source code 
  https://github.com/safak/youtube/blob/react-blog-ui/src/components/topbar/Topbar.jsx
 
 
