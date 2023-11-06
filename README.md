@@ -33,6 +33,8 @@ npm i react-router-dom
     live update with nodemon
     - install nodemon (recomended: npm install -g nodemon) 
 
+    ----------- ends at 8:05 ------------
+
 ## Credits
 Build and updated by WJK - based on Lama Dev (by Safak) YouTube training video
 
