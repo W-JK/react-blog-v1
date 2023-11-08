@@ -13,17 +13,38 @@ app.use("/",(req,res)=>{
 */
 
 const dotenv = require("dotenv");
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+const PORT = 3001;
+const authRoute = require ("./routes/auth");
+
 
 dotenv.config();
+app.use(express.json());
+
 
 mongoose
-    .connect(process.env.MONGO_URL, {
+    .connect(process.env.MONGO_URL, 
+       {
         
-    })
+        serverSelectionTimeoutMS: 5000
+      } 
+    )
+    /*
     .then(console.log("Connected to MongoDB"))
-    .catch((err) => console.log(err));
+    .catch((err) => console.log(err.reason));
+      */
 
-app.listen("3001", () => {
+    .then(() => {
+        console.log("Connected to MongoDB");
+    })
+    .catch((err) => {
+        console.log(err.reason);
+    });
+
+
+
+    app.use("/api/auth", authRoute);
+
+app.listen(PORT, () => {
     console.log("BackEnd is running")
 });

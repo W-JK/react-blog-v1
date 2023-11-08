@@ -6,13 +6,13 @@ const User = require("../models/User");
 
 router.post("/register", async (req,res)=>{
     try{
-        const newUSer = new User({
+        const newUser = new User({
             username: req.body.username,
             email: req.body.email,
             password: req.body.password,
         })
 
-        const user = await newUSer.save();
+        const user = await newUser.save();
         res.status(200).json(user)
 
     } catch(err){
@@ -23,3 +23,8 @@ router.post("/register", async (req,res)=>{
 
 
 // -------------------- LOGIN    -------------------
+
+
+
+
+module.exports = router
