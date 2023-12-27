@@ -37,6 +37,7 @@ npm i react-router-dom
     ----------------------------------------------------------------------------------------
     after Dec23 @babel/core have to be reinstaled ( npm install @babel/core --save )
     https://www.npmjs.com/package/@babel/plugin-transform-template-literals
+    https://stackoverflow.com/questions/52067944/cannot-find-module-babel-core
     to fix below error:
 
             node:internal/modules/cjs/loader:1042
