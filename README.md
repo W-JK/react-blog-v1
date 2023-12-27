@@ -34,6 +34,17 @@ npm i react-router-dom
     - install nodemon (recomended: npm install -g nodemon) 
 
     ----------- ends at 27:08 ------------
+    ----------------------------------------------------------------------------------------
+    after Dec23 @babel/core have to be reinstaled ( npm install @babel/core --save )
+    https://www.npmjs.com/package/@babel/plugin-transform-template-literals
+    to fix below error:
+
+            node:internal/modules/cjs/loader:1042
+            throw err;
+            ^
+
+            Error: Cannot find module '@babel/plugin-transform-template-literals'
+    ---------------------------------------------------------------------------------------
 
 ## Credits
 Build and updated by WJK - based on Lama Dev (by Safak) YouTube training video
